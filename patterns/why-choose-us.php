@@ -1,13 +1,15 @@
 <?php
 
 /**
- * Title: Hero Section
- * Slug: consultivo/hero
+ * Title: Why Choose Us
+ * Slug: consultivo/why-choose-us
  * Categories: consultivo-patterns
  */
-$consultivo_hero_url = trailingslashit( get_stylesheet_directory_uri() );
-$consultivo_hero_img = array(
-	$consultivo_hero_url . 'assets/images/hero.jpg',
+$consultivo_why_choose_us_url = trailingslashit( get_stylesheet_directory_uri() );
+$consultivo_why_choose_us_img = array(
+	$consultivo_why_choose_us_url . 'assets/images/icon-1.png',
+	$consultivo_why_choose_us_url . 'assets/images/icon-2.png',
+	$consultivo_why_choose_us_url . 'assets/images/icon-3.png',
 );
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
@@ -24,7 +26,7 @@ $consultivo_hero_img = array(
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"},"blockGap":"0"},"border":{"radius":{"topLeft":"10px","topRight":"10px","bottomLeft":"10px","bottomRight":"10px"}},"color":{"background":"#f9f9f9"}},"layout":{"type":"constrained","contentSize":"300px","justifyContent":"center"}} -->
 <div class="wp-block-column has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color:#f9f9f9;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":142,"width":"81px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost:8080/wp-content/uploads/2026/08/icon001.png" alt="" class="wp-image-142" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:81px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( $consultivo_why_choose_us_img[0] ); ?>" alt="" class="wp-image-142" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:81px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
@@ -38,7 +40,7 @@ $consultivo_hero_img = array(
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"},"blockGap":"0"},"border":{"radius":{"topLeft":"10px","topRight":"10px","bottomLeft":"10px","bottomRight":"10px"}},"color":{"background":"#f9f9f9"}},"layout":{"type":"constrained","contentSize":"300px","justifyContent":"center"}} -->
 <div class="wp-block-column has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color:#f9f9f9;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":156,"width":"81px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost:8080/wp-content/uploads/2026/08/icon002.png" alt="" class="wp-image-156" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:81px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( $consultivo_why_choose_us_img[1] ); ?>" alt="" class="wp-image-156" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:81px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
@@ -52,7 +54,7 @@ $consultivo_hero_img = array(
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"},"blockGap":"0"},"border":{"radius":{"topLeft":"10px","topRight":"10px","bottomLeft":"10px","bottomRight":"10px"}},"color":{"background":"#f9f9f9"}},"layout":{"type":"constrained","contentSize":"300px","justifyContent":"center"}} -->
 <div class="wp-block-column has-background" style="border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color:#f9f9f9;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"id":157,"width":"81px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border"><img src="http://localhost:8080/wp-content/uploads/2026/08/icon003.png" alt="" class="wp-image-157" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:81px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( $consultivo_why_choose_us_img[2] ); ?>" alt="" class="wp-image-157" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:81px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->

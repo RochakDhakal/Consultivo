@@ -337,12 +337,12 @@
         },
         "color": {
           "background": "var(--wp--preset--color--secondary)",
-          "text": "var(--wp--preset--color--black-color)"
+          "text": "var(--wp--preset--color--light-color)"
         },
         ":hover": {
           "color": {
             "background": "var(--wp--preset--color--primary)",
-            "text": "var(--wp--preset--color--light-color)"
+            "text": "var(--wp--preset--color--black-color)"
           }
         }
       },
