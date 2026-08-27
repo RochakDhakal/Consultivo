@@ -5,15 +5,30 @@
  * Slug: consultivo/case-study
  * Categories: consultivo-patterns
  */
+$consultivo_brand_showcase_url = trailingslashit( get_stylesheet_directory_uri() );
+$consultivo_brand_showcase_img = array(
+	$consultivo_brand_showcase_url . 'assets/images/case-study.jpg',
+	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-1.png',
+	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-2.png',
+	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-3.png',
+);
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"jumbo"} -->
-<h2 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-jumbo-font-size">We Have Done The WorksRecent Case Studies</h2>
+<h2 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-jumbo-font-size">
+<?php
+	esc_html_e( 'We Have Done The WorksRecent Case Studies', 'consultivo' );
+?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"foreground-alt"} -->
-<p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--50)">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--50)">
+<?php
+	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -22,17 +37,25 @@
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:0"><!-- wp:column {"width":"45px"} -->
 <div class="wp-block-column" style="flex-basis:45px"><!-- wp:image {"id":325,"width":"45px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wp-content/uploads/2026/08/case-study-icon-1.png" alt="" class="wp-image-325" style="width:45px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[1] ); ?>" alt="" class="wp-image-325" style="width:45px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">SEO Services</h4>
+<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">
+<?php
+	esc_html_e( 'SEO Services', 'consultivo' );
+?>
+</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"foreground-alt"} -->
-<p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.</p>
+<p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">
+<?php
+	esc_html_e( 'We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -40,17 +63,25 @@
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column {"width":"45px"} -->
 <div class="wp-block-column" style="flex-basis:45px"><!-- wp:image {"id":331,"width":"45px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wp-content/uploads/2026/08/case-study-icon-2.png" alt="" class="wp-image-331" style="width:45px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[2] ); ?>" alt="" class="wp-image-331" style="width:45px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">Inventory Tracking</h4>
+<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">
+<?php
+	esc_html_e( 'Inventory Tracking', 'consultivo' );
+?>
+</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"foreground-alt"} -->
-<p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.</p>
+<p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">
+<?php
+	esc_html_e( 'We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -58,25 +89,33 @@
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column {"width":"45px"} -->
 <div class="wp-block-column" style="flex-basis:45px"><!-- wp:image {"id":333,"width":"45px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wp-content/uploads/2026/08/case-study-icon-3.png" alt="" class="wp-image-333" style="width:45px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[3] ); ?>" alt="" class="wp-image-333" style="width:45px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">Business Services</h4>
+<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">
+<?php
+	esc_html_e( 'Business Services', 'consultivo' );
+?>
+</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"foreground-alt"} -->
-<p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.</p>
+<p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">
+<?php
+	esc_html_e( 'We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":""} -->
-<div class="wp-block-column"><!-- wp:cover {"url":"http://localhost:8080/wp-content/uploads/2026/08/case-study-1024x683.jpg","id":346,"dimRatio":0,"isUserOverlayColor":true,"minHeight":550,"isDark":false,"sizeSlug":"large","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light" style="min-height:550px"><img class="wp-block-cover__image-background wp-image-346 size-large" alt="" src="http://localhost:8080/wp-content/uploads/2026/08/case-study-1024x683.jpg" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"></div></div>
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( $consultivo_brand_showcase_img[0] ); ?>","id":346,"dimRatio":0,"isUserOverlayColor":true,"minHeight":550,"isDark":false,"sizeSlug":"large","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light" style="min-height:550px"><img class="wp-block-cover__image-background wp-image-346 size-large" alt="" src="<?php echo esc_url( $consultivo_brand_showcase_img[0] ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
