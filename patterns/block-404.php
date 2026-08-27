@@ -15,11 +15,7 @@ $consultivo_404_img = array(
 <div class="wp-block-group has-background-alt-background-color has-background has-xxxx-large-font-size" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)"><!-- wp:cover {"dimRatio":0,"overlayColor":"background","isUserOverlayColor":true,"minHeight":400,"isDark":false,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-cover is-light" style="padding-bottom:var(--wp--preset--spacing--80);min-height:400px"><span aria-hidden="true" class="wp-block-cover__background has-background-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":1454,"width":"308px","height":"146px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":["#C3CAD5","#6B00D6"]}}} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="
-<?php
-	echo esc_url( $consultivo_404_img[0] );
-?>
-" alt="" class="wp-image-1454" style="width:308px;height:146px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $consultivo_404_img[0] ); ?>" alt="" class="wp-image-1454" style="width:308px;height:146px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","textTransform":"uppercase","letterSpacing":"4px","textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|foregound-alt"}}}},"textColor":"foregound-alt","fontSize":"small"} -->

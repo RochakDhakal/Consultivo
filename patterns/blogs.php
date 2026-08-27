@@ -9,11 +9,19 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group has-background-alt-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"625px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}},"fontSize":"jumbo"} -->
-<h2 class="wp-block-heading has-text-align-center has-jumbo-font-size">News &amp; Articles</h2>
+<h2 class="wp-block-heading has-text-align-center has-jumbo-font-size">
+<?php
+	esc_html_e( 'News & Articles', 'consultivo' );
+?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">
+<?php
+	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -38,7 +46,11 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p>Oops! Blog Not Found.</p>
+<p>
+<?php
+	esc_html_e( 'Oops! Blog Not Found.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
@@ -64,7 +76,11 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p>Oops! Blogs Not Found.</p>
+<p>
+<?php
+	esc_html_e( 'Oops! Blogs Not Found.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
