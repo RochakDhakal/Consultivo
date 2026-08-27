@@ -8,11 +8,13 @@
 $consultivo_how_we_work_url = trailingslashit( get_stylesheet_directory_uri() );
 $consultivo_how_we_work_img = array(
 	$consultivo_how_we_work_url . 'assets/images/icon-1.png',
+	$consultivo_how_we_work_url . 'assets/images/icon-2.png',
+	$consultivo_how_we_work_url . 'assets/images/icon-3.png',
 );
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"1260%"}} -->
-<div class="wp-block-group has-light-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1260px"}} -->
-<div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
+<!-- wp:group {"metadata":{"patternName":"consultivo/how-we-work","name":"How We Work","categories":["consultivo-patterns"]},"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"240px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1260px"}} -->
+<div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:240px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
 <div class="wp-block-columns" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
 <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"http://localhost:8080/wp-content/uploads/2026/08/features-1-1024x683.jpg","id":171,"dimRatio":0,"isUserOverlayColor":true,"minHeight":595,"isDark":false,"sizeSlug":"large","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover is-light" style="min-height:595px"><img class="wp-block-cover__image-background wp-image-171 size-large" alt="" src="http://localhost:8080/wp-content/uploads/2026/08/features-1-1024x683.jpg" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}},"fontSize":"large"} -->
@@ -75,9 +77,9 @@ $consultivo_how_we_work_img = array(
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"is-style-saaslauncher-boxshadow","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"-80px","bottom":"0"},"blockGap":"0"},"shadow":"var:preset|shadow|natural"},"layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group is-style-saaslauncher-boxshadow" style="margin-top:-80px;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40);box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
-<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}},"border":{"top":{"width":"0px","style":"none"},"right":{"color":"var:preset|color|border-color","width":"1px"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained","contentSize":"315px"}} -->
+<!-- wp:group {"className":"is-style-saaslauncher-boxshadow","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"-150px","bottom":"0"},"blockGap":"0"}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-group is-style-saaslauncher-boxshadow has-light-color-background-color has-background" style="margin-top:-150px;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"light-color"} -->
+<div class="wp-block-columns has-light-color-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}},"border":{"top":{"width":"0px","style":"none"},"right":{"color":"var:preset|color|border-color","width":"1px"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"layout":{"type":"constrained","contentSize":"315px"}} -->
 <div class="wp-block-column" style="border-top-style:none;border-top-width:0px;border-right-color:var(--wp--preset--color--border-color);border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
 <h2 class="wp-block-heading">(5.0)</h2>
@@ -89,7 +91,7 @@ $consultivo_how_we_work_img = array(
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">Worldwide businesses rely on us for proven AI solutions.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -99,17 +101,17 @@ $consultivo_how_we_work_img = array(
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">Worldwide businesses rely on us for proven AI solutions.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"0","padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","contentSize":"280px"}} -->
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading -->
-<h2 class="wp-block-heading">78%</h2>
+<h2 class="wp-block-heading">95%</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">Worldwide businesses rely on us for proven AI solutions.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

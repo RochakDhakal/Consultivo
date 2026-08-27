@@ -1,0 +1,104 @@
+<?php
+/**
+ * Title: Testimonials
+ * Slug: consultivo/testimonials
+ * Categories: consultivo-patterns
+ */
+?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"626px"}} -->
+<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}},"fontSize":"jumbo"} -->
+<h2 class="wp-block-heading has-text-align-center has-jumbo-font-size">Customer's Reviews!</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"0"},"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"className":"is-style-saaslauncher-boxshadow-medium","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"light-color"} -->
+<div class="wp-block-column is-style-saaslauncher-boxshadow-medium has-light-color-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"70px"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70px"><!-- wp:image {"id":477,"width":"70px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="http://localhost:8080/wp-content/uploads/2026/08/testimonial-1-1-1024x683.jpg" alt="" class="wp-image-477" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:70px;height:auto"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"left":"var:preset|spacing|50"},"blockGap":"0"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|border-color","width":"1px"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Simon Minter</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Marketing Coordinator</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color"} -->
+<p class="has-meta-color-color has-text-color has-link-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":213,"width":"auto","height":"24px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#052FE7","rgb(5, 47, 231)"]},"layout":{"selfStretch":"fixed","flexSize":"150px"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wp-content/uploads/2026/08/star-1.png" alt="" class="wp-image-213" style="width:auto;height:24px"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"is-style-saaslauncher-boxshadow-medium","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"light-color"} -->
+<div class="wp-block-column is-style-saaslauncher-boxshadow-medium has-light-color-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"70px"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70px"><!-- wp:image {"id":498,"width":"70px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="http://localhost:8080/wp-content/uploads/2026/08/testimonial-2-1-1024x683.jpg" alt="" class="wp-image-498" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:70px;height:auto"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"left":"var:preset|spacing|50"},"blockGap":"0"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|border-color","width":"1px"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Tobi Brown</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Marketing Coordinator</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color"} -->
+<p class="has-meta-color-color has-text-color has-link-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":213,"width":"auto","height":"24px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#052FE7","rgb(5, 47, 231)"]},"layout":{"selfStretch":"fixed","flexSize":"150px"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wp-content/uploads/2026/08/star-1.png" alt="" class="wp-image-213" style="width:auto;height:24px"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"className":"is-style-saaslauncher-boxshadow-medium","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"light-color"} -->
+<div class="wp-block-column is-style-saaslauncher-boxshadow-medium has-light-color-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"70px"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:70px"><!-- wp:image {"id":499,"width":"70px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"100px","topRight":"100px","bottomLeft":"100px","bottomRight":"100px"}}}} -->
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="http://localhost:8080/wp-content/uploads/2026/08/testimonial-3-1-1024x682.jpg" alt="" class="wp-image-499" style="border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-left-radius:100px;border-bottom-right-radius:100px;aspect-ratio:1;object-fit:cover;width:70px;height:auto"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"left":"var:preset|spacing|50"},"blockGap":"0"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|border-color","width":"1px"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":5} -->
+<h5 class="wp-block-heading">Freya Brent</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Marketing Coordinator</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color"} -->
+<p class="has-meta-color-color has-text-color has-link-color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":213,"width":"auto","height":"24px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#052FE7","rgb(5, 47, 231)"]},"layout":{"selfStretch":"fixed","flexSize":"150px"}}} -->
+<figure class="wp-block-image size-full is-resized"><img src="http://localhost:8080/wp-content/uploads/2026/08/star-1.png" alt="" class="wp-image-213" style="width:auto;height:24px"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
