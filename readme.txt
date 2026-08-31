@@ -3,7 +3,7 @@
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 7.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLauncher, designed for consulting firms, business consultants, professional agencies, and service-based businesses. It features a clean and professional design with flexible templates, patterns, and global style options, allowing you to easily customize your website’s layout, colors, typography, and content directly through the WordPress Site Editor without extensive coding.
+Consultivo is a modern consulting WordPress theme designed for consultants, consulting agencies, consulting firms, business advisors, coaches, and professional service businesses. Built as a child theme of SaaSLauncher, it provides a professional foundation for creating a credible consultant website, consulting agency website, consulting firm website, or professional services website without starting from scratch. Whether you are a business consultant, management consultant, marketing consultant, strategy consultant, technology consultant, financial advisor, or business coach, Consultivo helps showcase your expertise, services, case studies, testimonials, team, and insights. Built with the WordPress Block Editor and Full Site Editing, it makes customizing templates, blocks, patterns, typography, colors, spacing, and global styles simple without advanced coding. Its clean, responsive design helps your website look professional across all devices while presenting clear calls to action that encourage potential clients to connect. Ideal for consulting firms, advisory businesses, coaching services, and expert-led agencies, Consultivo helps you communicate your value, build trust, and create a professional online presence that supports business growth. Explore more features and live demos at https://cozythemes.com/saaslauncher-wordpress-theme/
 
 == Installation ==
 
@@ -27,7 +27,7 @@ Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLaun
 
 == Changelog ==
 
-= 1.0.0 - 31 September, 2026 =
+= 1.0.0 - 31 August, 2026 =
 * Initial Release
 
 ==Copyright==
@@ -46,54 +46,49 @@ License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/1704930
 
-Image for Case Study, https://pxhere.com,
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1724708
-
-Image for Service 1, https://pxhere.com,
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1705134
-
-Image for Service 2, https://pxhere.com,
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1700922
-
-Image for Service 3, https://pxhere.com,
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1680026
-
-Image for How We Work, https://pxhere.com,
+Image for Services, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/1563505
 
-Image for Testimonial 1, https://pxhere.com,
+Image for Service 2, and Portfolio 2, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:  https://pxhere.com/en/photo/1709256
+Source: https://pxhere.com/en/photo/1723722
 
-Image for Testimonial 2, https://pxhere.com,
+Image for Service 3, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:  https://pxhere.com/en/photo/1709258
+Source: https://pxhere.com/en/photo/1706126
 
-Image for Testimonial 3, https://pxhere.com,
+Image for Portfolio 1, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:  https://pxhere.com/en/photo/1717596
+Source: https://pxhere.com/en/photo/1707020
+
+Image for testimonial 1, https://pxhere.com,
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source:  https://pxhere.com/en/photo/1709306
+
+Image for testimonial 2, https://pxhere.com,
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source:  https://pxhere.com/en/photo/1708324
+
+Image for testimonial 3, https://pxhere.com,
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source:  https://pxhere.com/en/photo/1704906
 
 Google Fonts:
 
-Font: Poppins,
-Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
+Font: Inter,
+Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
 License: https://openfontlicense.org
-Source: https://github.com/itfoundry/Poppins
+Source: https://github.com/rsms/inter
 
-Font: Public Sans,
-Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)
+Font: Bricolage Grotesque,
+Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
 License: https://openfontlicense.org
-Source: https://github.com/uswds/public-sans
+Source: https://github.com/ateliertriay/bricolage
