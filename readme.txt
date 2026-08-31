@@ -46,49 +46,54 @@ License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/1704930
 
-Image for Services, https://pxhere.com,
+Image for Case Study, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1563505
+Source: https://pxhere.com/en/photo/1724708
 
-Image for Service 2, and Portfolio 2, https://pxhere.com,
+Image for Service 1, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1723722
+Source: https://pxhere.com/en/photo/1705134
+
+Image for Service 2, https://pxhere.com,
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1700922
 
 Image for Service 3, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1706126
+Source: https://pxhere.com/en/photo/1680026
 
-Image for Portfolio 1, https://pxhere.com,
+Image for How We Work, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1707020
+Source: https://pxhere.com/en/photo/1563505
 
-Image for testimonial 1, https://pxhere.com,
+Image for Testimonial 1, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:  https://pxhere.com/en/photo/1709306
+Source:  https://pxhere.com/en/photo/1709256
 
-Image for testimonial 2, https://pxhere.com,
+Image for Testimonial 2, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:  https://pxhere.com/en/photo/1708324
+Source:  https://pxhere.com/en/photo/1709258
 
-Image for testimonial 3, https://pxhere.com,
+Image for Testimonial 3, https://pxhere.com,
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:  https://pxhere.com/en/photo/1704906
+Source:  https://pxhere.com/en/photo/1717596
 
 Google Fonts:
 
-Font: Inter,
-Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+Font: Poppins,
+Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
 License: https://openfontlicense.org
-Source: https://github.com/rsms/inter
+Source: https://github.com/itfoundry/Poppins
 
-Font: Bricolage Grotesque,
-Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
+Font: Public Sans,
+Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)
 License: https://openfontlicense.org
-Source: https://github.com/ateliertriay/bricolage
+Source: https://github.com/uswds/public-sans
