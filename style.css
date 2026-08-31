@@ -4,7 +4,7 @@ Author: CozyThemes
 Author URI: https://cozythemes.com/
 Description: Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLauncher, designed for digital agencies, creative studios, marketing firms, and professional service businesses. It combines a clean, professional design with flexible templates, patterns, and global style options, allowing you to easily customize your website's layout, colors, typography, and content directly through the WordPress Site Editor without extensive coding.
 Template: saaslauncher
-Version: 1.0.1
+Version: 1.0.0
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 7.4
@@ -19,43 +19,45 @@ p a,
 .wp-block-heading a {
   text-decoration: underline;
 }
-
 /* Newsletter */
 form.wpcf7-form p {
+  margin-top: 0px;
   & input.wpcf7-form-control {
-    padding: 12px 26px !important;
+    padding: 10px 26px !important;
     font: var(--wp--preset--font-size--normal);
-    font-family: var(--wp--preset--font-family--inter);
-    border-radius: 12px;
-    border: 1px solid var(--wp--preset--color--border-color);
+    font-family: var(--wp--preset--font-family--poppins);
+    border-radius: 0px;
+    margin-top: 0px;
   }
   & input.wpcf7-submit {
+    margin-top: 0px;
     background-color: var(--wp--preset--color--primary) !important;
   }
   & input.wpcf7-submit:hover {
     background-color: var(--wp--preset--color--secondary) !important;
-    border-color: var(--wp--preset--color--border-color);
   }
 }
-.consultivo-newsletter.wp-block-contact-form-7-contact-form-selector {
+.consultivo-newsletter-form.wp-block-contact-form-7-contact-form-selector {
   & form.wpcf7-form p {
     position: relative;
     & input.wpcf7-form-control {
       padding: 14px 28px !important;
-      border-radius: 100px !important;
-      color: var(--wp--preset--color--light-color);
-      background: var(--wp--preset--color--background) !important;
+      border-radius: 0px !important;
+      color: var(--wp--preset--color--foreground);
+      background: var(--wp--preset--color--light-color) !important;
+      margin-bottom: 12px;
     }
     & input.wpcf7-submit {
       position: absolute;
-      right: 6px;
-      top: 4px;
-      padding: 8px 24px !important;
-      color: var(--wp--preset--color--secondary);
-      background: var(--wp--preset--color--light-color) !important;
+      right: 0px;
+      top: 0px;
+      padding: 13px 24px !important;
+      color: var(--wp--preset--color--light-color);
+      background: var(--wp--preset--color--primary) !important;
+      margin-top: 0px;
     }
     & input.wpcf7-submit:hover {
-      background: var(--wp--preset--color--primary) !important;
+      background: var(--wp--preset--color--secondary) !important;
     }
   }
 }
@@ -86,4 +88,9 @@ nav.wp-block-navigation ul li a:hover {
     }
   }
   transition: background-color 0.23s ease-in-out;
+}
+/* Button */
+.wp-block-button.is-style-button-hover-light-bgcolor a:hover {
+  background: var(--wp--preset--color--light-color) !important;
+  color: var(--wp--preset--color--foreground) !important;
 }

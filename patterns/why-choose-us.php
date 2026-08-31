@@ -15,11 +15,19 @@ $consultivo_why_choose_us_img = array(
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"625px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
-<h2 class="wp-block-heading has-text-align-center">Why Choose Us!</h2>
+<h2 class="wp-block-heading has-text-align-center">
+<?php
+	esc_html_e( 'Why Choose Us!', 'consultivo' );
+?>
+</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"24px"}}}} -->
-<p class="has-text-align-center" style="margin-top:24px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="has-text-align-center" style="margin-top:24px">
+<?php
+	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -30,11 +38,19 @@ $consultivo_why_choose_us_img = array(
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<h4 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">Competitive Pricing</h4>
+<h4 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">
+<?php
+	esc_html_e( 'Competitive Pricing', 'consultivo' );
+?>
+</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">
+<?php
+	esc_html_e( 'We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -44,11 +60,19 @@ $consultivo_why_choose_us_img = array(
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<h4 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">Tailored Solutions</h4>
+<h4 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">
+<?php
+	esc_html_e( 'Tailored Solutions', 'consultivo' );
+?>
+</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">
+<?php
+	esc_html_e( 'We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -58,11 +82,19 @@ $consultivo_why_choose_us_img = array(
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<h4 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">Client-Centric Focus</h4>
+<h4 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">
+<?php
+	esc_html_e( 'Client-Centric Focus', 'consultivo' );
+?>
+</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
-<p style="margin-top:var(--wp--preset--spacing--40)">We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.</p>
+<p style="margin-top:var(--wp--preset--spacing--40)">
+<?php
+	esc_html_e( 'We understand every client is unique, offering customized strategies designed to address your specific challenges and objectives.', 'consultivo' );
+?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
