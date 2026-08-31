@@ -41,12 +41,13 @@ $consultivo_testimonials_img = array(
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"left":"var:preset|spacing|50"},"blockGap":"0"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|border-color","width":"1px"}}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">
+<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)">
+<!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">
 <?php
 	esc_html_e( 'Simon Minter', 'consultivo' );
 ?>
-</h5>
+</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -81,12 +82,12 @@ $consultivo_testimonials_img = array(
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"left":"var:preset|spacing|50"},"blockGap":"0"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|border-color","width":"1px"}}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">
+<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">
 <?php
 	esc_html_e( 'Tobi Brown', 'consultivo' );
 ?>
-</h5>
+</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -121,12 +122,12 @@ $consultivo_testimonials_img = array(
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"left":"var:preset|spacing|50"},"blockGap":"0"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|border-color","width":"1px"}}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":5} -->
-<h5 class="wp-block-heading">
+<div class="wp-block-column is-vertically-aligned-center" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--border-color);border-left-width:1px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<h3 class="wp-block-heading has-large-font-size">
 <?php
 	esc_html_e( 'Freya Brent', 'consultivo' );
 ?>
-</h5>
+</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLauncher, designed for digital agencies, creative studios, marketing firms, and professional service businesses. It combines a clean, professional design with flexible templates, patterns, and global style options, allowing you to easily customize your website's layout, colors, typography, and content directly through the WordPress Site Editor without extensive coding.
+Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLauncher, designed for consulting firms, business consultants, professional agencies, and service-based businesses. It features a clean and professional design with flexible templates, patterns, and global style options, allowing you to easily customize your website’s layout, colors, typography, and content directly through the WordPress Site Editor without extensive coding.
 
 == Installation ==
 

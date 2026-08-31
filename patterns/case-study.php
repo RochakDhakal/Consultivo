@@ -42,14 +42,14 @@ $consultivo_brand_showcase_img = array(
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">
+<div class="wp-block-column">
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+<h3 class="wp-block-heading has-light-color-color has-text-color has-link-color">
 <?php
 	esc_html_e( 'SEO Services', 'consultivo' );
 ?>
-</h4>
+</h3>
 <!-- /wp:heading -->
-
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"foreground-alt"} -->
 <p class="has-foreground-alt-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--40)">
 <?php
@@ -68,12 +68,13 @@ $consultivo_brand_showcase_img = array(
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">
+<div class="wp-block-column">
+	<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+<h3 class="wp-block-heading has-light-color-color has-text-color has-link-color">
 <?php
 	esc_html_e( 'Inventory Tracking', 'consultivo' );
 ?>
-</h4>
+</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"foreground-alt"} -->
@@ -94,12 +95,13 @@ $consultivo_brand_showcase_img = array(
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-<h4 class="wp-block-heading has-light-color-color has-text-color has-link-color">
+<div class="wp-block-column">
+<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+<h3 class="wp-block-heading has-light-color-color has-text-color has-link-color">
 <?php
 	esc_html_e( 'Business Services', 'consultivo' );
 ?>
-</h4>
+</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"foreground-alt"} -->

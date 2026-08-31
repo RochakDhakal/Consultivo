@@ -53,8 +53,9 @@ $consultivo_services_img = array(
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-light-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
-<div class="wp-block-button is-style-button-hover-light-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
+<div class="wp-block-buttons">
+<!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-secondary-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
+<div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
 <?php
 	esc_html_e( 'Read More', 'consultivo' );
 ?>
@@ -85,8 +86,8 @@ $consultivo_services_img = array(
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-light-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
-<div class="wp-block-button is-style-button-hover-light-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-secondary-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
+<div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
 <?php
 	esc_html_e( 'Read More', 'consultivo' );
 ?>
@@ -117,8 +118,8 @@ $consultivo_services_img = array(
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-light-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
-<div class="wp-block-button is-style-button-hover-light-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-secondary-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
+<div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
 <?php
 	esc_html_e( 'Read More', 'consultivo' );
 ?>
