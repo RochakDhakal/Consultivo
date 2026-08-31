@@ -27,7 +27,7 @@ Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLaun
 
 == Changelog ==
 
-= 1.0.0 - 27 August, 2026 =
+= 1.0.0 - 31 September, 2026 =
 * Initial Release
 
 ==Copyright==

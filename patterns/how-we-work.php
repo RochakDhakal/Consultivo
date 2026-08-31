@@ -36,7 +36,7 @@ $consultivo_how_we_work_img = array(
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column {"width":"35px"} -->
-<div class="wp-block-column" style="flex-basis:35px"><<!-- wp:image {"id":181,"width":"auto","height":"35px","sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-column" style="flex-basis:35px"><!-- wp:image {"id":181,"width":"auto","height":"35px","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_how_we_work_img[1] ); ?>" alt="" class="wp-image-181" style="width:auto;height:35px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
@@ -56,7 +56,7 @@ $consultivo_how_we_work_img = array(
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column {"width":"35px"} -->
-<div class="wp-block-column" style="flex-basis:35px"><<!-- wp:image {"id":181,"width":"auto","height":"35px","sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-column" style="flex-basis:35px"><!-- wp:image {"id":181,"width":"auto","height":"35px","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_how_we_work_img[1] ); ?>" alt="" class="wp-image-181" style="width:auto;height:35px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
