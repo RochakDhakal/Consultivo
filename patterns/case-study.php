@@ -13,6 +13,21 @@ $consultivo_brand_showcase_img = array(
 	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-3.png',
 );
 ?>
+<?php
+
+/**
+ * Title: Case Study
+ * Slug: consultivo/case-study
+ * Categories: consultivo-patterns
+ */
+$consultivo_brand_showcase_url = trailingslashit( get_stylesheet_directory_uri() );
+$consultivo_brand_showcase_img = array(
+	$consultivo_brand_showcase_url . 'assets/images/case-study.jpg',
+	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-1.png',
+	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-2.png',
+	$consultivo_brand_showcase_url . 'assets/images/case-study-icon-3.png',
+);
+?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"660px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"jumbo"} -->
@@ -36,9 +51,11 @@ $consultivo_brand_showcase_img = array(
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"blockGap":"0","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained","contentSize":"570px","justifyContent":"left"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:50%"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:0"><!-- wp:column {"width":"45px"} -->
-<div class="wp-block-column" style="flex-basis:45px"><!-- wp:image {"id":325,"width":"45px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[1] ); ?>" alt="" class="wp-image-325" style="width:45px;height:auto"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column" style="flex-basis:45px">
+	<!-- wp:image {"id":325,"width":"auto","height":"45px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[1] ); ?>" alt="" class="wp-image-325" style="width:auto;height:45px"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -62,9 +79,11 @@ $consultivo_brand_showcase_img = array(
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column {"width":"45px"} -->
-<div class="wp-block-column" style="flex-basis:45px"><!-- wp:image {"id":331,"width":"45px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[2] ); ?>" alt="" class="wp-image-331" style="width:45px;height:auto"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column" style="flex-basis:45px">
+	<!-- wp:image {"id":325,"width":"auto","height":"45px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[2] ); ?>" alt="" class="wp-image-325" style="width:auto;height:45px"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -89,9 +108,11 @@ $consultivo_brand_showcase_img = array(
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column {"width":"45px"} -->
-<div class="wp-block-column" style="flex-basis:45px"><!-- wp:image {"id":333,"width":"45px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[3] ); ?>" alt="" class="wp-image-333" style="width:45px;height:auto"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column" style="flex-basis:45px">
+<!-- wp:image {"id":325,"width":"auto","height":"45px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[2] ); ?>" alt="" class="wp-image-325" style="width:auto;height:45px"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
