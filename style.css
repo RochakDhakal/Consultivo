@@ -4,7 +4,7 @@ Author: CozyThemes
 Author URI: https://cozythemes.com/
 Description: Consultivo is a modern WordPress Full Site Editing (FSE) child theme of SaasLauncher, designed for consulting firms, business consultants, professional agencies, and service-based businesses. It features a clean and professional design with flexible templates, patterns, and global style options, allowing you to easily customize your website’s layout, colors, typography, and content directly through the WordPress Site Editor without extensive coding.
 Template: saaslauncher
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 7.4
@@ -63,7 +63,7 @@ form.wpcf7-form p {
 }
 
 nav.wp-block-navigation ul li a:hover {
-  color: var(--wp--preset--color--light-color) !important;
+  color: var(--wp--preset--color--secondary) !important;
 }
 /* Overflow Hidden */
 .wp-block-columns[style*="border-top-left-radius"],
