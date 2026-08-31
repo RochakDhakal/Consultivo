@@ -4,11 +4,11 @@
  * Slug: consultivo/services
  * Categories: consultivo-patterns
  */
-$consultivo_brand_showcase_url = trailingslashit( get_stylesheet_directory_uri() );
-$consultivo_brand_showcase_img = array(
-	$consultivo_brand_showcase_url . 'assets/images/service-1.jpg',
-	$consultivo_brand_showcase_url . 'assets/images/service-2.jpg',
-	$consultivo_brand_showcase_url . 'assets/images/service-3.jpg',
+$consultivo_services_url = trailingslashit( get_stylesheet_directory_uri() );
+$consultivo_services_img = array(
+	$consultivo_services_url . 'assets/images/service-1.jpg',
+	$consultivo_services_url . 'assets/images/service-2.jpg',
+	$consultivo_services_url . 'assets/images/service-3.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"patternName":"consultivo/services","name":"Services","categories":["consultivo-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
@@ -33,7 +33,7 @@ $consultivo_brand_showcase_img = array(
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:column {"layout":{"type":"constrained","contentSize":"400px"}} -->
 <div class="wp-block-column"><!-- wp:image {"id":278,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[0] ); ?>" alt="" class="wp-image-278" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_services_img[0] ); ?>" alt="" class="wp-image-278" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"background"} -->
@@ -65,7 +65,7 @@ $consultivo_brand_showcase_img = array(
 
 <!-- wp:column {"layout":{"type":"constrained","contentSize":"400px"}} -->
 <div class="wp-block-column"><!-- wp:image {"id":305,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[1] ); ?>" alt="" class="wp-image-305" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_services_img[1] ); ?>" alt="" class="wp-image-305" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"background"} -->
@@ -97,7 +97,7 @@ $consultivo_brand_showcase_img = array(
 
 <!-- wp:column {"layout":{"type":"constrained","contentSize":"400px"}} -->
 <div class="wp-block-column"><!-- wp:image {"id":306,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_brand_showcase_img[2] ); ?>" alt="" class="wp-image-306" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_services_img[2] ); ?>" alt="" class="wp-image-306" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"background"} -->
