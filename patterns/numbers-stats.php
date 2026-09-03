@@ -2,12 +2,12 @@
 
 /**
  * Title: Numbers & Stats
- * Slug: consultivo/numbers-stats
- * Categories: consultivo-patterns
+ * Slug: saas-consulting-agency/numbers-stats
+ * Categories: saas-consulting-agency-patterns
  */
-$consultivo_numbers_stats_url = trailingslashit( get_stylesheet_directory_uri() );
-$consultivo_numbers_stats_img = array(
-	$consultivo_numbers_stats_url . 'assets/images/star.png',
+$saas_consulting_agency_numbers_stats_url = trailingslashit( get_stylesheet_directory_uri() );
+$saas_consulting_agency_numbers_stats_img = array(
+	$saas_consulting_agency_numbers_stats_url . 'assets/images/star.png',
 );
 ?>
 <!-- wp:group {"className":"is-style-saaslauncher-boxshadow","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"-150px","bottom":"0"},"blockGap":"0"}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"100%"}} -->
@@ -17,20 +17,20 @@ $consultivo_numbers_stats_img = array(
 <div class="wp-block-group"><!-- wp:heading -->
 <h2 class="wp-block-heading">
 <?php
-	esc_html_e( '(5.0)', 'consultivo' );
+	esc_html_e( '(5.0)', 'saas-consulting-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":213,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["rgb(253, 143, 20)","rgb(253, 143, 20)"]},"layout":{"selfStretch":"fixed","flexSize":"150px"}}} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $consultivo_numbers_stats_img[0] ); ?>" alt="" class="wp-image-213"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $saas_consulting_agency_numbers_stats_img[0] ); ?>" alt="" class="wp-image-213"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <p style="margin-top:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', 'consultivo' );
+	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -40,7 +40,7 @@ $consultivo_numbers_stats_img = array(
 <div class="wp-block-column" style="border-top-style:none;border-top-width:0px;border-right-color:var(--wp--preset--color--border-color);border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading -->
 <h2 class="wp-block-heading">
 <?php
-	esc_html_e( '78%', 'consultivo' );
+	esc_html_e( '78%', 'saas-consulting-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -48,7 +48,7 @@ $consultivo_numbers_stats_img = array(
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <p style="margin-top:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', 'consultivo' );
+	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -58,7 +58,7 @@ $consultivo_numbers_stats_img = array(
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading -->
 <h2 class="wp-block-heading">
 <?php
-	esc_html_e( '95%', 'consultivo' );
+	esc_html_e( '95%', 'saas-consulting-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -66,7 +66,7 @@ $consultivo_numbers_stats_img = array(
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <p style="margin-top:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', 'consultivo' );
+	esc_html_e( 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>

@@ -1,22 +1,22 @@
 <?php
 /**
  * Title: Services
- * Slug: consultivo/services
- * Categories: consultivo-patterns
+ * Slug: saas-consulting-agency/services
+ * Categories: saas-consulting-agency-patterns
  */
-$consultivo_services_url = trailingslashit( get_stylesheet_directory_uri() );
-$consultivo_services_img = array(
-	$consultivo_services_url . 'assets/images/service-1.jpg',
-	$consultivo_services_url . 'assets/images/service-2.jpg',
-	$consultivo_services_url . 'assets/images/service-3.jpg',
+$saas_consulting_agency_services_url = trailingslashit( get_stylesheet_directory_uri() );
+$saas_consulting_agency_services_img = array(
+	$saas_consulting_agency_services_url . 'assets/images/service-1.jpg',
+	$saas_consulting_agency_services_url . 'assets/images/service-2.jpg',
+	$saas_consulting_agency_services_url . 'assets/images/service-3.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"patternName":"consultivo/services","name":"Services","categories":["consultivo-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
+<!-- wp:group {"metadata":{"patternName":"saas-consulting-agency/services","name":"Services","categories":["saas-consulting-agency-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0","padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"650px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}}} -->
 <h2 class="wp-block-heading has-text-align-center">
 <?php
-	esc_html_e( 'Consultancy Services', 'consultivo' );
+	esc_html_e( 'Consultancy Services', 'saas-consulting-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -24,7 +24,7 @@ $consultivo_services_img = array(
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
 <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'consultivo' );
+	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -33,13 +33,13 @@ $consultivo_services_img = array(
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:column {"layout":{"type":"constrained","contentSize":"400px"}} -->
 <div class="wp-block-column"><!-- wp:image {"id":278,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_services_img[0] ); ?>" alt="" class="wp-image-278" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $saas_consulting_agency_services_img[0] ); ?>" alt="" class="wp-image-278" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"background"} -->
 <h4 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Employee Resourcing', 'consultivo' );
+	esc_html_e( 'Employee Resourcing', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading -->
@@ -47,7 +47,7 @@ $consultivo_services_img = array(
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.', 'consultivo' );
+	esc_html_e( 'Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph -->
@@ -57,7 +57,7 @@ $consultivo_services_img = array(
 <!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-secondary-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
 <div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Read More', 'consultivo' );
+	esc_html_e( 'Read More', 'saas-consulting-agency' );
 ?>
 </a></div>
 <!-- /wp:button --></div>
@@ -66,13 +66,13 @@ $consultivo_services_img = array(
 
 <!-- wp:column {"layout":{"type":"constrained","contentSize":"400px"}} -->
 <div class="wp-block-column"><!-- wp:image {"id":305,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_services_img[1] ); ?>" alt="" class="wp-image-305" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $saas_consulting_agency_services_img[1] ); ?>" alt="" class="wp-image-305" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"background"} -->
 <h4 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Solicitory & Advocacy', 'consultivo' );
+	esc_html_e( 'Solicitory & Advocacy', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading -->
@@ -80,7 +80,7 @@ $consultivo_services_img = array(
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.', 'consultivo' );
+	esc_html_e( 'Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph -->
@@ -89,7 +89,7 @@ $consultivo_services_img = array(
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-secondary-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
 <div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Read More', 'consultivo' );
+	esc_html_e( 'Read More', 'saas-consulting-agency' );
 ?>
 </a></div>
 <!-- /wp:button --></div>
@@ -98,13 +98,13 @@ $consultivo_services_img = array(
 
 <!-- wp:column {"layout":{"type":"constrained","contentSize":"400px"}} -->
 <div class="wp-block-column"><!-- wp:image {"id":306,"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $consultivo_services_img[2] ); ?>" alt="" class="wp-image-306" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( $saas_consulting_agency_services_img[2] ); ?>" alt="" class="wp-image-306" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"textColor":"background"} -->
 <h4 class="wp-block-heading has-text-align-center has-background-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Software & Research', 'consultivo' );
+	esc_html_e( 'Software & Research', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading -->
@@ -112,7 +112,7 @@ $consultivo_services_img = array(
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.', 'consultivo' );
+	esc_html_e( 'Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph -->
@@ -121,7 +121,7 @@ $consultivo_services_img = array(
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"transparent","textColor":"foreground","className":"is-style-button-hover-secondary-bgcolor","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"border":{"width":"1px"}},"borderColor":"foreground"} -->
 <div class="wp-block-button is-style-button-hover-secondary-bgcolor"><a class="wp-block-button__link has-foreground-color has-transparent-background-color has-text-color has-background has-link-color has-border-color has-foreground-border-color wp-element-button" href="#" style="border-width:1px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Read More', 'consultivo' );
+	esc_html_e( 'Read More', 'saas-consulting-agency' );
 ?>
 </a></div>
 <!-- /wp:button --></div>

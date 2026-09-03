@@ -2,26 +2,26 @@
 
 /**
  * Title: 404 Block
- * Slug: consultivo/block-404
- * Categories: consultivo-patterns
+ * Slug: saas-consulting-agency/block-404
+ * Categories: saas-consulting-agency-patterns
  */
-$consultivo_404_url = trailingslashit( get_stylesheet_directory_uri() );
-$consultivo_404_img = array(
-	$consultivo_404_url . 'assets/images/404.png',
+$saas_consulting_agency_404_url = trailingslashit( get_stylesheet_directory_uri() );
+$saas_consulting_agency_404_img = array(
+	$saas_consulting_agency_404_url . 'assets/images/404.png',
 );
 ?>
-<!-- wp:group {"tagName":"main","metadata":{"patternName":"consultivo/block-404","name":"404 Block","categories":["consultivo-patterns"]},"style":{"spacing":{"padding":{"right":"26px","left":"26px","top":"42px","bottom":"42px"}}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"100%"}} -->
+<!-- wp:group {"tagName":"main","metadata":{"patternName":"saas-consulting-agency/block-404","name":"404 Block","categories":["saas-consulting-agency-patterns"]},"style":{"spacing":{"padding":{"right":"26px","left":"26px","top":"42px","bottom":"42px"}}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"100%"}} -->
 <main class="wp-block-group has-light-color-background-color has-background" style="padding-top:42px;padding-right:26px;padding-bottom:42px;padding-left:26px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","right":"var:preset|spacing|40","left":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"fontSize":"xxxx-large","layout":{"type":"constrained","contentSize":"860px"}} -->
 <div class="wp-block-group has-xxxx-large-font-size" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)"><!-- wp:cover {"dimRatio":0,"overlayColor":"background","isUserOverlayColor":true,"minHeight":400,"isDark":false,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-cover is-light" style="padding-bottom:var(--wp--preset--spacing--80);min-height:400px"><span aria-hidden="true" class="wp-block-cover__background has-background-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":1454,"width":"308px","height":"146px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":["#C3CAD5","#6B00D6"]}}} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $consultivo_404_img[0] ); ?>" alt="" class="wp-image-1454" style="width:308px;height:146px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $saas_consulting_agency_404_img[0] ); ?>" alt="" class="wp-image-1454" style="width:308px;height:146px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","textTransform":"uppercase","letterSpacing":"4px","textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|foregound-alt"}}}},"textColor":"foregound-alt","fontSize":"small"} -->
 <h4 class="wp-block-heading has-text-align-center has-foregound-alt-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:300;letter-spacing:4px;text-transform:uppercase">
 <?php
-	esc_html_e( 'OOPS! Page Not Found!', 'consultivo' );
+	esc_html_e( 'OOPS! Page Not Found!', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading --></div>
@@ -34,7 +34,7 @@ $consultivo_404_img = array(
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600","textAlign":"left"}}} -->
 <h3 class="wp-block-heading has-text-align-left" style="font-style:normal;font-weight:600">
 <?php
-	esc_html_e( 'Helpful Links', 'consultivo' );
+	esc_html_e( 'Helpful Links', 'saas-consulting-agency' );
 ?>
 </h3>
 <!-- /wp:heading -->
@@ -42,7 +42,7 @@ $consultivo_404_img = array(
 <!-- wp:paragraph -->
 <p>
 <?php
-	esc_html_e( "Something went wrong! We couldn't find the page you were looking for. But don't worry, we've got some other Links that might be helpful:", 'consultivo' );
+	esc_html_e( "Something went wrong! We couldn't find the page you were looking for. But don't worry, we've got some other Links that might be helpful:", 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -53,7 +53,7 @@ $consultivo_404_img = array(
 <div class="wp-block-column has-foregound-alt-color has-text-color has-link-color"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} -->
 <h4 class="wp-block-heading" style="margin-bottom:var(--wp--preset--spacing--40)">
 <?php
-	esc_html_e( 'Pages', 'consultivo' );
+	esc_html_e( 'Pages', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading -->
@@ -65,7 +65,7 @@ $consultivo_404_img = array(
 <div class="wp-block-column has-foregound-alt-color has-text-color has-link-color"><!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">
 <?php
-	esc_html_e( 'Categories', 'consultivo' );
+	esc_html_e( 'Categories', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading -->
@@ -78,7 +78,7 @@ $consultivo_404_img = array(
 <div class="wp-block-group alignfull" style="border-bottom-style:none;border-bottom-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"level":4,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <h4 class="wp-block-heading" style="margin-top:0;margin-bottom:0">
 <?php
-	esc_html_e( 'Latest Posts', 'consultivo' );
+	esc_html_e( 'Latest Posts', 'saas-consulting-agency' );
 ?>
 </h4>
 <!-- /wp:heading --></div>

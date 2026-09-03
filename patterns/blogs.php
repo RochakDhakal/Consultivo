@@ -2,16 +2,16 @@
 
 /**
  * Title: Blogs
- * Slug: consultivo/blogs
- * Categories: consultivo-patterns
+ * Slug: saas-consulting-agency/blogs
+ * Categories: saas-consulting-agency-patterns
  */
 ?>
-<!-- wp:group {"metadata":{"patternName":"consultivo/blogs","name":"Blogs","categories":["consultivo-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1260px"}} -->
+<!-- wp:group {"metadata":{"patternName":"saas-consulting-agency/blogs","name":"Blogs","categories":["saas-consulting-agency-patterns"]},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group has-background-alt-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"625px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"textAlign":"center"}},"fontSize":"jumbo"} -->
 <h2 class="wp-block-heading has-text-align-center has-jumbo-font-size">
 <?php
-	esc_html_e( 'News & Articles', 'consultivo' );
+	esc_html_e( 'News & Articles', 'saas-consulting-agency' );
 ?>
 </h2>
 <!-- /wp:heading -->
@@ -19,7 +19,7 @@
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
 <p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--50)">
 <?php
-	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'consultivo' );
+	esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph --></div>
@@ -48,7 +48,7 @@
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
 <p>
 <?php
-	esc_html_e( 'Oops! Blog Not Found.', 'consultivo' );
+	esc_html_e( 'Oops! Blog Not Found.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph -->
@@ -78,7 +78,7 @@
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
 <p>
 <?php
-	esc_html_e( 'Oops! Blogs Not Found.', 'consultivo' );
+	esc_html_e( 'Oops! Blogs Not Found.', 'saas-consulting-agency' );
 ?>
 </p>
 <!-- /wp:paragraph -->

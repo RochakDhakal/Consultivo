@@ -2,8 +2,8 @@
 
 /**
  * Title: Call To Action
- * Slug: consultivo/cta
- * Categories: consultivo-patterns
+ * Slug: saas-consulting-agency/cta
+ * Categories: saas-consulting-agency-patterns
  */
 
 ?>
@@ -13,7 +13,7 @@
 <div class="wp-block-group"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
 <h2 class="wp-block-heading has-light-color-color has-text-color has-link-color">
 <?php
-	esc_html_e( 'What support do you need from us?', 'consultivo' );
+	esc_html_e( 'What support do you need from us?', 'saas-consulting-agency' );
 ?>
 </h2>
 <!-- /wp:heading --></div>
@@ -24,7 +24,7 @@
 <!-- wp:button {"className":"is-style-button-hover-light-bgcolor"} -->
 <div class="wp-block-button is-style-button-hover-light-bgcolor"><a class="wp-block-button__link wp-element-button" href="#">
 <?php
-	esc_html_e( 'Request a Quote', 'consultivo' );
+	esc_html_e( 'Request a Quote', 'saas-consulting-agency' );
 ?>
 </a></div>
 <!-- /wp:button -->

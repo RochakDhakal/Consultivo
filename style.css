@@ -1,8 +1,8 @@
 /*
-Theme Name: Consultivo
+Theme Name: Saas Consulting Agency
 Author: CozyThemes
 Author URI: https://cozythemes.com/
-Description: Consultivo is a modern consulting WordPress theme designed for consultants, consulting agencies, consulting firms, business advisors, coaches, and professional service businesses. Built as a child theme of SaaSLauncher, it provides a professional foundation for creating a credible consultant website, consulting agency website, consulting firm website, or professional services website without starting from scratch. Whether you are a business consultant, management consultant, marketing consultant, strategy consultant, technology consultant, financial advisor, or business coach, Consultivo helps showcase your expertise, services, case studies, testimonials, team, and insights. Built with the WordPress Block Editor and Full Site Editing, it makes customizing templates, blocks, patterns, typography, colors, spacing, and global styles simple without advanced coding. Its clean, responsive design helps your website look professional across all devices while presenting clear calls to action that encourage potential clients to connect. Ideal for consulting firms, advisory businesses, coaching services, and expert-led agencies, Consultivo helps you communicate your value, build trust, and create a professional online presence that supports business growth. Explore more features and live demos at https://cozythemes.com/saaslauncher-wordpress-theme/
+Description: Saas Consulting Agency is a modern consulting WordPress theme designed for consultants, consulting agencies, consulting firms, business advisors, coaches, and professional service businesses. Built as a child theme of SaaSLauncher, it provides a professional foundation for creating a credible consultant website, consulting agency website, consulting firm website, or professional services website without starting from scratch. Whether you are a business consultant, management consultant, marketing consultant, strategy consultant, technology consultant, financial advisor, or business coach, Saas Consulting Agency helps showcase your expertise, services, case studies, testimonials, team, and insights. Built with the WordPress Block Editor and Full Site Editing, it makes customizing templates, blocks, patterns, typography, colors, spacing, and global styles simple without advanced coding. Its clean, responsive design helps your website look professional across all devices while presenting clear calls to action that encourage potential clients to connect. Ideal for consulting firms, advisory businesses, coaching services, and expert-led agencies, Saas Consulting Agency helps you communicate your value, build trust, and create a professional online presence that supports business growth. Explore more features and live demos at https://cozythemes.com/saaslauncher-wordpress-theme/
 Template: saaslauncher
 Version: 1.0.0
 Requires at least: 7.0
@@ -10,7 +10,7 @@ Tested up to: 7.1
 Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: consultivo
+Text Domain: saas-consulting-agency
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 */
 .entry-content.wp-block-post-content a,
@@ -37,7 +37,7 @@ form.wpcf7-form p {
     background-color: var(--wp--preset--color--secondary) !important;
   }
 }
-.consultivo-newsletter-form.wp-block-contact-form-7-contact-form-selector {
+.saas-consulting-agency-newsletter-form.wp-block-contact-form-7-contact-form-selector {
   & form.wpcf7-form p {
     position: relative;
     & input.wpcf7-form-control {
@@ -77,7 +77,7 @@ nav.wp-block-navigation ul li a:hover {
   overflow: hidden;
 }
 /* Search Button */
-.consultivo-search-btn {
+.saas-consulting-agency-search-btn {
   & button.wp-block-search__button {
     padding: 12px;
     background-color: transparent;

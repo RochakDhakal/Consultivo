@@ -1,4 +1,4 @@
-=== Consultivo ===
+=== Saas Consulting Agency ===
 
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Consultivo is a modern consulting WordPress theme designed for consultants, consulting agencies, consulting firms, business advisors, coaches, and professional service businesses. Built as a child theme of SaaSLauncher, it provides a professional foundation for creating a credible consultant website, consulting agency website, consulting firm website, or professional services website without starting from scratch. Whether you are a business consultant, management consultant, marketing consultant, strategy consultant, technology consultant, financial advisor, or business coach, Consultivo helps showcase your expertise, services, case studies, testimonials, team, and insights. Built with the WordPress Block Editor and Full Site Editing, it makes customizing templates, blocks, patterns, typography, colors, spacing, and global styles simple without advanced coding. Its clean, responsive design helps your website look professional across all devices while presenting clear calls to action that encourage potential clients to connect. Ideal for consulting firms, advisory businesses, coaching services, and expert-led agencies, Consultivo helps you communicate your value, build trust, and create a professional online presence that supports business growth. Explore more features and live demos at https://cozythemes.com/saaslauncher-wordpress-theme/
+Saas Consulting Agency is a modern consulting WordPress theme designed for consultants, consulting agencies, consulting firms, business advisors, coaches, and professional service businesses. Built as a child theme of SaaSLauncher, it provides a professional foundation for creating a credible consultant website, consulting agency website, consulting firm website, or professional services website without starting from scratch. Whether you are a business consultant, management consultant, marketing consultant, strategy consultant, technology consultant, financial advisor, or business coach, Saas Consulting Agency helps showcase your expertise, services, case studies, testimonials, team, and insights. Built with the WordPress Block Editor and Full Site Editing, it makes customizing templates, blocks, patterns, typography, colors, spacing, and global styles simple without advanced coding. Its clean, responsive design helps your website look professional across all devices while presenting clear calls to action that encourage potential clients to connect. Ideal for consulting firms, advisory businesses, coaching services, and expert-led agencies, Saas Consulting Agency helps you communicate your value, build trust, and create a professional online presence that supports business growth. Explore more features and live demos at https://cozythemes.com/saaslauncher-wordpress-theme/
 
 == Installation ==
 
@@ -23,7 +23,7 @@ Consultivo is a modern consulting WordPress theme designed for consultants, cons
 
 = Does this theme support any plugins? =
 
-"Consultivo" includes support for WooCommerce and for Infinite Scroll in Jetpack.
+"Saas Consulting Agency" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
@@ -31,8 +31,8 @@ Consultivo is a modern consulting WordPress theme designed for consultants, cons
 * Initial Release
 
 ==Copyright==
-"Consultivo" WordPress Theme, Copyright 2026 CozyThemes
-"Consultivo" is distributed under the terms of the GNU GPL
+"Saas Consulting Agency" WordPress Theme, Copyright 2026 CozyThemes
+"Saas Consulting Agency" is distributed under the terms of the GNU GPL
 
 == Credits ==
 == Resources ==
