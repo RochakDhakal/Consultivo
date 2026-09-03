@@ -27,7 +27,7 @@ Saas Consulting Agency is a modern consulting WordPress theme designed for consu
 
 == Changelog ==
 
-= 1.0.0 - 31 August, 2026 =
+= 1.0.0 - 3 September, 2026 =
 * Initial Release
 
 ==Copyright==
